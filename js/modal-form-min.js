@@ -1,0 +1,1 @@
+var link=document.querySelector(".search-title a"),popup=document.querySelector(".search-form"),arrival=document.querySelector("[name=arrival_date]");link.addEventListener("click",function(e){e.preventDefault(),popup.classList.toggle("form-none"),arrival.focus()});
